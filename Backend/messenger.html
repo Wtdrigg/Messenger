@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" >
+    <link rel="stylesheet" href="/static/messenger_style.css">
+    <title>Messenger</title>
+    <script src="/static/messenger.js" type="module"></script>
+</head>
+
+<body>
+    <h1 id="Heading">Messenger</h1>
+    <div class="visible" id="topholder">
+        <label id="nametag" >
+            <p id="usernameselect">Select User-Name:</p> 
+            <input class="userbox" id="userbox">
+            <button type="button" id="namebutton" onclick="submitName()">SUBMIT</button>
+        </label>
+    </div>
+    <div class="hidden" id="midholder">
+        <div class="textbox" id="textbox"></div>
+        <br>
+        <div class="hidden" id="bottomholder">
+            <input class="entrybox" id="entrybox"><!--   
+            --><button type="button" id="submitbutton" onclick="submitMessage()">SUBMIT</button>
+        </div>
+    </div>
+</body>
+</html>

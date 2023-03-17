@@ -1,0 +1,137 @@
+body
+{
+    font-size: x-large;
+    background-color: black;
+    color: #84c754;
+    font-family:'VT323', 'Courier New', Courier, monospace;
+}
+
+h1
+{
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button
+{
+    background-color: #004000;
+    border-color: #84c754;
+    border-width: 1px;
+    color: #84c754;
+    width: 100px;
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+#topholder
+{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#userbox
+{
+    margin-top: 10px;
+    display: inline;
+    width: 190px;
+    background-color: black;
+    border-color: #84c754;
+    border-width: 1px;
+    color: #84c754;
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: x-large;
+    transition: background-color 1s;
+}
+
+#usernameselect
+{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#userbox:focus
+{
+    background-color: #004000;
+    outline: none;
+}
+
+#namebutton
+{
+    display: inline;
+    margin-left: 5px;
+}
+
+#nametag
+{
+    width: 100%;
+    display: inline-block;
+}
+
+#textbox
+{
+    margin: auto;
+    padding-left: 5px;
+    width: 40%;
+    height: 500px;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #84c754;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+#bottomholder
+{
+    margin: auto;
+    width: 41%;
+}
+
+#entrybox
+{
+    margin: auto;
+    margin-left: 1%;
+    display: inline;
+    width: 83%;
+    background-color: black;
+    border-color: #84c754;
+    border-width: 1px;
+    color: #84c754;
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: x-large;
+    transition: background-color 1s;
+}
+
+#entrybox:focus
+{
+    background-color: #004000;
+    outline: none;
+}
+
+#submitbutton
+{
+    display: inline;
+    width: 13%;
+    margin-left: 1.5%;
+}
+
+#inputline
+{
+    margin: auto;
+    width: 60%;
+}
+
+
+.hidden
+{
+    display: none;
+}
+.visible
+{
+    visibility: visible;
+}
